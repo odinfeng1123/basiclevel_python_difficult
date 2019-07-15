@@ -23,4 +23,4 @@ output = rr(a) + rr(b) + rr(c) + rr(d)
 print(str(len(output)))
 for x in output:
     print(' '.join(list(map(str, x[:-1]))))
-# 在多次提交下有可能能过第3测试点，但是第4、5测试点依然不能过
+# 在多次提交能过第3测试点，但是第4、5测试点依然不能过
