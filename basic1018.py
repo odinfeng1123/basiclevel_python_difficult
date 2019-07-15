@@ -15,3 +15,4 @@ result[1] = n-result[0]-result[2]
 print(' '.join(map(str,result)))
 print(' '.join(map(str,result[::-1])))
 print(m[win1.index(max(win1))][0]+' '+m[win2.index(max(win2))][0])
+# 多次提交能全过
